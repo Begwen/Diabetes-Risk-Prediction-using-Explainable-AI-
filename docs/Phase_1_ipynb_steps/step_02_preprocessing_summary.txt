@@ -1,0 +1,12 @@
+Preprocessing Summary — Diabetes BTP Step 2
+--------------------------------------------
+Rows              : 768
+Columns           : 9
+Numeric features  : 8
+Categorical feat. : 0
+Imputation        : median (numeric), mode (categorical)
+Scaling           : StandardScaler (z-score)
+Missing post-proc : 0
+Outputs:
+  - /Users/appler/diabetes_btp_submission_20251102_1311/data/processed/pima_cleaned.csv
+  - /Users/appler/diabetes_btp_submission_20251102_1311/data/processed/preprocessor.joblib

@@ -1,0 +1,90 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Step 1 — Load Data",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/step1_data_load.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Step 2 — Preprocess",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/step2_preprocess.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Step 3 — Train Models",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/step3_train.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Step 4 — SHAP Explain",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/step4_explain.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Step 5 — Report",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/step5_report.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Step 6 — Phase 2 Improvements (all)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/step6_phase2_improvements.py",
+      "args": ["--section", "all"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Step 6 — Optuna Tuning",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/step6_phase2_improvements.py",
+      "args": ["--section", "tune"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Streamlit App",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "app.py"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "FastAPI Server",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["api:app", "--reload", "--port", "8000"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Run All Tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["tests/", "-v"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

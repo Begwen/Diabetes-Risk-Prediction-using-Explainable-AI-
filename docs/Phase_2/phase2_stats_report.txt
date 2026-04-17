@@ -1,0 +1,4 @@
+Statistical Significance — Phase 1 (RF) vs Phase 2 (XGBoost)
+McNemar statistic: 0.0714  p-value: 0.7893
+b (RF correct, XGB wrong): 6
+c (XGB correct, RF wrong): 8

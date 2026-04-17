@@ -1,0 +1,13 @@
+Step 4 — Explainability Summary
+--------------------------------
+Model     : XGBoost (Phase 2 fix — TreeExplainer)
+Samples   : 154
+Base value mean: -0.6339 (should be ~0.35)
+Top features: Glucose, BMI, Age, DiabetesPedigreeFunction, Insulin
+
+Artefacts:
+  explain/XGBoost_shap_summary.png
+  explain/XGBoost_shap_bar.png
+  explain/shap_dependence_<feature>.png  (8 plots)
+  explain/patient_5_waterfall.png
+  explain/shap_values_class1.csv

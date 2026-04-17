@@ -1,0 +1,2 @@
+Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age,PredictedProb,PredictedClass
+7,170,77,40,6,42.2,0.0,90,0.425,0

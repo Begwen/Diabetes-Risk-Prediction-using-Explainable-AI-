@@ -1,0 +1,16 @@
+
+Step 3 — Model Training & Evaluation Summary
+--------------------------------------------
+Models trained: ['LogisticRegression', 'RandomForest', 'XGBoost', 'LightGBM']
+
+Best Model (by F1): XGBoost
+
+Metrics snapshot:
+                    Accuracy  Precision  Recall      F1  ROC_AUC  PR_AUC
+LogisticRegression    0.7013     0.5870  0.5000  0.5400   0.8128  0.6732
+RandomForest          0.7403     0.6522  0.5556  0.6000   0.8173  0.6971
+XGBoost               0.7597     0.6604  0.6481  0.6542   0.8243  0.6826
+LightGBM              0.7273     0.6200  0.5741  0.5962   0.8172  0.6701
+
+All trained models and metrics saved under: /content/diabetes-risk/results
+Next step: Feature importance & explainability (SHAP)

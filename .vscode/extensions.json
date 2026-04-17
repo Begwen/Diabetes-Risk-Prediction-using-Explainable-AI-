@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.debugpy",
+    "ms-python.black-formatter",
+    "ms-python.isort",
+    "ms-toolsai.jupyter",
+    "ms-toolsai.jupyter-keymap",
+    "ms-toolsai.vscode-jupyter-cell-tags",
+    "GitHub.copilot"
+  ]
+}

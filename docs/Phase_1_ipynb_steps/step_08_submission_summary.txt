@@ -1,0 +1,12 @@
+
+Step 8 — Final Documentation & Submission Pack
+----------------------------------------------
+Final PDF Report: /content/diabetes-risk/docs/Step_08_Final_Report_20251102_1300.pdf
+Submission ZIP:  /content/diabetes_btp_submission_20251102_1306.zip
+
+Contents included:
+- Cleaned data & preprocessor
+- Trained models & metrics
+- SHAP explainability plots
+- Interactive interface (app.py)
+- Reports & docs folders

@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+
+# VS Code (keep settings, ignore local history)
+.vscode/settings.json.bak
+
+# Large model files — tracked manually, not auto-committed
+# Uncomment if you want to exclude joblib files:
+# *.joblib
+
+# Secrets / env files
+.env
+*.pem

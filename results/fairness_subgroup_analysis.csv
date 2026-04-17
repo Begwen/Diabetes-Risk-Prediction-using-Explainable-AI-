@@ -1,0 +1,7 @@
+Group,Type,N,F1,Recall
+Young (<35),Age,100,0.5385,0.5385
+Middle (35-50),Age,39,0.8085,0.8636
+Older (>50),Age,15,0.6667,0.8333
+Normal (<25),BMI,23,0.0,0.0
+Overweight (25-30),BMI,38,0.5714,0.6
+Obese (>30),BMI,93,0.6882,0.7273
